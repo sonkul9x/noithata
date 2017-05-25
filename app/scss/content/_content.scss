@@ -1,0 +1,20 @@
+#main-content {
+    margin-bottom: 20px;
+}
+
+#content {
+    padding-left: 20px;
+    h3.title-big {
+        margin-bottom: 10px;
+        color: #fff;
+        background: $mau1;
+        padding: 8px 0 10px 15px;
+        i {
+            margin-right: 8px;
+        }
+    }
+    @import 'slider';
+    @import 'hot-product';
+    @import 'list-product';
+    @import 'pagination';
+}

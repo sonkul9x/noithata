@@ -1,0 +1,88 @@
+  span.icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      width: 50px;
+      height: 50px;
+      &.hot {
+          background: url(../images/hot.png)no-repeat center center;
+      }
+      &.news {
+          background: url(../images/new.png)no-repeat center center;
+      }
+  }
+  
+  .list-product-content {
+      .product-box {
+          padding-right: 10px;
+          position: relative;
+          text-align: center;
+          margin-bottom: 10px;
+          >div {
+              border: 1px solid $mau1;
+              padding-bottom: 10px;
+              box-shadow: #aaa 0px 1px 5px 1px;
+          }
+          .pro-img {
+              max-width: 100%;
+              overflow: hidden;
+              display: block;
+              height: 160px;
+              img {
+                  width: 100%;
+                  height: 100%;
+                  -webkit-transform: scale(1);
+                  transform: scale(1);
+                  -webkit-transition: .3s ease-in-out;
+                  transition: .3s ease-in-out;
+              }
+          }
+          h4 {
+              padding: 15px 0 5px;
+              a {
+                  font-family: "Roboto Condensed";
+                  font-weight: 500;
+              }
+          }
+          .price {
+              color: #f00;
+          }
+          .coltrol {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 160px;
+              opacity: 0;
+              transition: opacity .35s ease;
+              background: rgba(255, 255, 255, 0.5);
+              vertical-align: bottom;
+              a {
+                  background: $mau1 none repeat scroll 0 0;
+                  display: block;
+                  margin: 70px auto 0;
+                  padding: 5px 15px;
+                  width: 100px;
+                  color: #fff;
+                  &:hover {
+                      background: #fff;
+                      color: $mau1;
+                      border: 1px solid $mau1;
+                  }
+              }
+          }
+          &:hover {
+              .coltrol {
+                  opacity: 1;
+              }
+              img {
+                  -webkit-transform: scale(1.3);
+                  transform: scale(1.3);
+              }
+          }
+          &:nth-child(4n+4) {
+              padding-right: 0;
+          }
+      }
+  }

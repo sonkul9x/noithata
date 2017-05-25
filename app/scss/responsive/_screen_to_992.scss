@@ -1,0 +1,29 @@
+@media screen and (max-width:992px) {
+    header {
+        .menu-header {
+            .hotline {
+                float: left!important;
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    }
+    #content {
+        padding-left: 0;
+        .list-product-content {
+            .product-box {
+                &:nth-child(4n+4) {
+                    padding-right: 10px;
+                }
+                &:nth-child(2n+2) {
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+    .footer-box {
+        margin-bottom: 20px;
+    }
+}

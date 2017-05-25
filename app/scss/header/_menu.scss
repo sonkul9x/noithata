@@ -1,0 +1,45 @@
+.menu-header{
+	.navbar{
+		margin-bottom: 0;
+		font-weight: 600;
+	}
+	.navbar-default {
+  		.navbar-brand {    
+	    font-family:'Lobster', cursive;
+	    color: #fff;
+	    font-size: 25px;	
+		@include background("../images/bg-header.png",repeat, center center) ;
+ 	 }
+  .navbar-nav{
+  		 
+		> li{
+			> a{
+				text-transform: uppercase;
+				padding-left: 20px;
+				padding-right:20px;
+			}
+		}
+		> .active {
+			 > a {
+			 	background: $mau2;
+				color:#fff;
+			 }
+			 &:hover{
+			 	background: $mau2;
+				color:#fff;
+			 }	
+			 &:focus{
+			 	background: $mau2;
+				color:#fff;
+			 }	 
+			
+  		 }
+ 	 }   
+
+  }
+  .hotline{
+	  padding:15px 20px;
+	  font-size: 20px;
+	  color: #fff;
+  }
+}

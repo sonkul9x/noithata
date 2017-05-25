@@ -1,0 +1,34 @@
+#sidebar {
+    .sidebar-box{
+        border: 1px solid $mau1;
+        margin-bottom: 10px;
+         h3{
+            color:#fff;
+            background: $mau1;
+            padding: 8px 0 10px 15px;
+            i{
+                margin-right: 8px;
+            }
+        }
+        .sidebar-list{            
+            padding: 10px;
+            li{
+               font-size: 15px;
+                padding: 5px 0;
+                border-bottom: 1px solid #ccc;
+                padding-left: 1em; 
+                text-indent: -.7em;
+               &:before {
+                content: "• ";
+                font-size: 20px;
+                color: $mau2; /* or whatever color you prefer */
+                }
+            }
+           &.dmsp{
+               text-transform: uppercase;
+           }
+        }
+    }
+   
+    
+}

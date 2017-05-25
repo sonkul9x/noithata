@@ -1,0 +1,31 @@
+#footer{
+    background: $mau1;
+    color:#fff;
+   .top-footer{
+       .footer-box{
+           
+            .title-footer{
+                font-family: 'Roboto Condensed';
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+              li{
+               font-size: 15px;
+                padding: 5px 0;              
+                padding-left: 1em; 
+                text-indent: -.7em;
+               &:before {
+                content: "• ";
+                font-size: 20px;
+                color: #fff; /* or whatever color you prefer */
+                }
+            }
+       }
+       
+       border-bottom: 1px solid #fff;
+       padding: 20px 10px 10px;
+   }
+   .bottom-footer{
+       text-align: center;
+   }
+}

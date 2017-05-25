@@ -1,0 +1,32 @@
+.pagination {
+    border: 1px solid #d7d7d7;
+    margin-bottom: 6px;
+    padding: 3px 0 2px;
+    width: 100%;
+    .pagi-ct {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0 auto;
+        text-align: center;
+        a {
+            background: #fff;
+            border: 1px solid $mau1;
+            display: inline-block;
+            float: none;
+            font-size: 17px;
+            line-height: 25px;
+            padding: 0 10px;
+            color: $mau1;
+        }
+        .current {
+            background: $mau2;
+            border: 1px solid #a39c9c;
+            color: #fff;
+            display: inline-block;
+            font-size: 17px;
+            line-height: 26px;
+            padding: 0 9px;
+        }
+    }
+}

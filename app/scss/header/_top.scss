@@ -1,0 +1,32 @@
+.top-header{
+	@include background("../images/bg-header.png",repeat, center center) ;
+	padding:10px;
+	a{
+		padding:10px;
+		display: block;
+		overflow: hidden;
+		img{
+			max-width: 220px;
+			max-height: 100px;
+		}
+	}
+	.search-header{
+		padding: 10px;
+		form{
+			padding: 20px 0;
+			.search-field{
+				border:1px solid #ccc;
+				padding:5px 10px;
+				width: 250px;
+			}
+			.search-submit{
+				padding: 5px 10px;
+				border:1px solid #ccc;
+				background: #6a482a;
+				color: #fff;
+				position: relative;
+				left: -5px;
+			}
+		}
+	}
+}
