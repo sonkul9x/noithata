@@ -21,7 +21,7 @@
             <div class="row top-header">
                 <div class="container">
                     <a href="#" class="logo col-xs-12 col-sm-6 wow fadeInLeftBig"><img src="images/logo.png" alt=""></a>
-                    <div class="search-header col-xs-12 col-sm-6  wow fadeInRightBig">
+                    <div class="search-header col-xs-12 col-sm-6 hidden-xs  wow fadeInRightBig">
                         <form role="search" method="get" class="search-form" action="#">
                             <input type="search" class="search-field" placeholder="Tìm kiếm sản phẩm,..." value="" name="s" title="Tìm kiếm" />
                             <input type="submit" class="search-submit" value="Tìm kiếm" />
@@ -385,7 +385,7 @@
             </div>
             <!--end container-->
         </main>
-        <footer id="footer" class="row row-offcanvas row-offxanhas-right wow fadeInUpBig">
+        <footer id="footer" class="row row-offcanvas row-offxanhas-right">
             <div class="container">
                 <div class="row top-footer">
                     <div class="col-xs-12 col-sm-6 col-md-3 footer-box wow fadeInLeft">
@@ -437,6 +437,16 @@
 
     <script src="js/app.bundle.js"></script>
 </body>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 </html>
 </div>

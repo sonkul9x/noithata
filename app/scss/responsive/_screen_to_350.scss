@@ -1,16 +1,16 @@
-@media screen and (max-width:350px){
-   #content {
-    .list-product-content{
-         .product-box{
-             width:100%;          
-            &:nth-child(4n+4){
-             padding-right: 0;
-            }
-             &:nth-child(2n+2){
+@media screen and (max-width:350px) {
+    #content {
+        .list-product-content {
+            .product-box {
+                width: 100%;
+                &:nth-child(4n+4) {
+                    padding-right: 0;
+                }
+                &:nth-child(2n+2) {
+                    padding-right: 0;
+                }
                 padding-right: 0;
             }
-            padding-right: 0;
-         }
-    }  
-   }
+        }
+    }
 }

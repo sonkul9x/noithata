@@ -1,0 +1,128 @@
+.breamcrum {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: $mau1;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 9px;
+    margin-bottom: 6px;
+    padding-left: 9px;
+    a {
+        display: inline-block;
+        line-height: 23px;
+        &.bre_home {
+            color: $mau1;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+    span {
+        color: $mau2;
+        font-size: 14px;
+        font-weight: 600;
+        &.icon-next {
+            background: rgba(0, 0, 0, 0) url("images/icon-next.png") no-repeat scroll center center;
+            display: inline-block;
+            height: 10px;
+            line-height: 23px;
+            width: 14px;
+        }
+    }
+}
+
+.content-product {
+    padding: 15px 0;
+    .img-product {
+        padding: 10px;
+        a {
+            display: block;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            img {
+                object-fit: cover;
+            }
+        }
+        .sk_socials {
+            border-top: 2px solid $mau1;
+            border-bottom: 2px solid $mau1;
+            margin: 10px 0;
+            padding: 8px 0 5px;
+            div {
+                margin-right: 10px;
+            }
+        }
+    }
+    .info-product {
+        padding: 10px;
+        h1 {
+            font-family: 'Roboto Condensed';
+            margin-bottom: 10px;
+        }
+        .price {
+            margin-bottom: 10px;
+            color: #f00;
+        }
+        .sk_description {
+            border-bottom: 2px solid $mau1;
+            padding-bottom: 5px;
+        }
+        .contact-hotline {
+            padding: 10px;
+            text-align: center;
+            p {
+                font-family: 'Lobster', cursive;
+                font-weight: 400;
+                padding: 0;
+                a {
+                    color: #f00;
+                }
+            }
+        }
+        .form-contact {
+            form {
+                input[type="text"],
+                input[type="email"],
+                textarea {
+                    background: #f2f2f2 none repeat scroll 0 0;
+                    border: 1px solid #444;
+                    color: #111;
+                    font-size: 13px;
+                    font-style: italic;
+                    margin-bottom: 10px;
+                    padding: 5px;
+                    width: 100%;
+                }
+                textarea {
+                    height: 120px;
+                    resize: none;
+                }
+                input[type="submit"] {
+                    background: $mau1 none repeat scroll 0 0;
+                    border: 1px solid $mau1;
+                    color: #fff;
+                    font-size: 18px;
+                    padding: 3px 30px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .content-product {
+        h4 {
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+            border-color: $mau1;
+            border-image: none;
+            border-style: solid;
+            border-width: 0 0 1px 9px;
+            margin-bottom: 6px;
+            padding: 5px 0 5px 10px;
+            font-family: 'Roboto Condensed';
+        }
+    }
+}

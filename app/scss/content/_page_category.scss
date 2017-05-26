@@ -1,0 +1,37 @@
+.list-post-content {
+    .post-box {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid $mau1;
+        .img_post {
+            padding: 10px;
+            a {
+                width: 100%;
+                height: 100px;
+                overflow: hidden;
+                display: block;
+                img {
+                    object-fit: cover;
+                    max-width: 100%;
+                }
+            }
+        }
+        .info-post {
+            padding: 10px;
+            h3 {
+                margin-bottom: 5px;
+                a {
+                    font-family: 'Roboto Condensed';
+                }
+            }
+            .des-post {}
+            .read-more {
+                display: inline-block;
+                margin: 5px 0;
+                padding: 5px 15px;
+                background: $mau1;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.main-contact {
+    h4.title-contact {
+        padding: 5px 0;
+        margin-bottom: 10px;
+        border-bottom: 2px solid $mau1;
+        color: $mau1;
+    }
+    .text-contact {
+        margin-bottom: 10px;
+    }
+    .info-contact {
+        padding: 10px;
+        strong {
+            font-size: 20px;
+        }
+        p {
+            padding: 0;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+    .maps-contact {
+        padding: 10px;
+    }
+}

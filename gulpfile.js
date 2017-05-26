@@ -12,9 +12,7 @@ var config = {
         '!app/css/app.bundle.min.css'
     ],
     cssConcatFiles: [
-        'app/css/**/*.css',
-        'app/css/bootstrap-import.css',
-        '!app/css/app.bundle.css'
+        'app/css/app.bundle.css'
     ],
     jsListenFiles: [
         'app/js/**/*.js',
@@ -123,7 +121,7 @@ gulp.task("scripts", function() {
 // Styles Tasks
 // ///////////////////////////////////////////////
 gulp.task("min-styles", function() {
-    gulp.src(config.cssListenFiles)
+    gulp.src(config.cssConcatFiles)
         .pipe(plumber())
         .pipe(rename({ suffix: '.min' }))
         .pipe(cleanCSS({ compatibility: 'ie8' }))
